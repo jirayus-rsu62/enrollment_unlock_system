@@ -1,0 +1,73 @@
+* {
+  margin-top: 25px;
+}
+.sysname {
+  text-align: center;
+  font-family: "RSU";
+  /* font-size: 20px; */
+  color: rgb(141, 94, 185);
+}
+
+.info {
+  font-family: "RSU";
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+}
+
+.sum {
+  font-family: "RSU";
+  font-size: 21px;
+  color: rgb(255, 0, 0);
+}
+
+.btn {
+  height: 200px;
+  position: relative;
+  /* border: 3px solid #008cba; */
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: relative;
+  background-color: #008cba;
+  border: none;
+  font-size: 22px;
+  font-family: "RSU";
+  color: #ffffff;
+  padding: 5px;
+  width: 160px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+body {
+  background-image: url("./webbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b2 {
+  position: relative;
+  background-color: #eb4848;
+  border: none;
+  font-size: 22px;
+  font-family: "RSU";
+  color: #ffffff;
+  padding: 5px;
+  width: 160px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
